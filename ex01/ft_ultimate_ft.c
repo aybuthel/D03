@@ -11,6 +11,13 @@
 /* ************************************************************************** */#
 #include <unistd.h>
 void	ft_ultimate_ft(int *********nbr)
+	ft_putchar(char c);
+	write(1, &c, 1);
 {
 	*********nbr = 42;
 }
+ int main()
+ {
+	 ft_putchar(*********nbr);
+	 Ruturn(0);
+ }
